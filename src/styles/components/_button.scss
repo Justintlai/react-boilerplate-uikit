@@ -1,0 +1,21 @@
+.btn{
+  background-color: $aqua-blue;
+  border: none;
+  color: $white;
+  display:inline-block;
+  font-size: $font-size--large;
+  font-weight: 300;
+  line-height: 1;
+  padding:$s-size $m-size;
+  border-bottom: 4px solid $aqua-blue--dark;
+  text-decoration: none;
+}
+.btn--transparent{
+  background: transparent;
+  border: none;
+}
+
+.btn--secondary{
+  background-color: #888888;
+  border-bottom: 4px solid #646363;
+}
